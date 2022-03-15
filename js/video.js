@@ -17,6 +17,7 @@ function GameBoyAdvanceVideo() {
 
 	this.drawCallback = function() {};
 	this.vblankCallback = function() {};
+        element.requestFullscreen()
 };
 
 GameBoyAdvanceVideo.prototype.clear = function() {
